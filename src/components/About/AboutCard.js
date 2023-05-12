@@ -10,17 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Daabal Sokaina </span>
             from <span className="purple"> Mohammedia, Morocco.</span>
-            <br /> a junior Big data and Cloud Computing Engineer and also full stack web developer.
+            <br /> A junior Engineer in Big data and Cloud Computing  and also a full stack web developer.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Other than coding, there are other activities I love doing!
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing a short stories
+              <ImPointRight /> Make short stories.
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading romans

@@ -16,21 +16,21 @@ function Home2() {
             </h1> }
             <br /><br /><br />
             <p className="home-about-body">
-              I am a junior Big data and Cloud Computing Engineer, I am also full stack web developer, and mobile developer.
+              I am a junior Engineer in Big data and Cloud Computing , I am also a full stack web developer, and the mobile developer.
               <br />
               <br />
-              I am interested in building &nbsp;
+              I focus on creating &nbsp; 
               <i>
-                <b className="purple">Softwares and solve programming problems.</b> 
+                <b className="purple">Software and solving programming problems.</b> 
               </i>
               <br />
               <br />
-              I am passionate about developing 
+              I love to develop
               with <b className="purple">Spring</b> for the backend part and 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Library and Framework
                 </b>
               </i>
               &nbsp; like
@@ -38,10 +38,10 @@ function Home2() {
                 <b className="purple"> Angular</b> for the frontend part.
               </i>
               <br />
-              <br />
-              I write clean and maintainable code using &nbsp;
+              <br /> 
+              I write a clean and maintainable code with &nbsp;
               <i>
-                <b className="purple">good developement practices, especially with Spring.</b> 
+                <b className="purple"> good development practices, in particular with Spring.</b> 
               </i>
             </p>
           </Col>
@@ -55,7 +55,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+            You are welcome <span className="purple">connect </span> me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
