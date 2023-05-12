@@ -46,7 +46,7 @@ function Projects() {
               title="Enset Blog"
               description="A template for a blog site make with HTML and Bootstrap."
               ghLink="https://github.com/sokainadaabal/web-tp"
-              demoLink="https://vercel.com/daabalsokaina/tp-boostrap-sokainadaabal"
+              demoLink="https://tp-boostrap-sokainadaabal.vercel.app/"
             />
           </Col>
         </Row>
