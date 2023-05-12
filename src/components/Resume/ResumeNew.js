@@ -3,13 +3,12 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Cv_SokainaDaabal.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { AiFillChrome, AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://github.com/sokainadaabal/portfolio/tree/master/src/Assets/Cv_SokainaDaabal.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -22,9 +21,10 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document className="d-flex justify-content-center" file={pdf}>
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
           </Document>
         </Row>
 
@@ -33,32 +33,38 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", margin: "5px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+             <AiFillChrome/>
+            
+            &nbsp;Offre Job
           </Button>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+         <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px" , margin: "5px" }}
           >
-            <AiOutlineDownload />
+           <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px" , margin: "5px"  }}
           >
             <AiOutlineDownload />
             &nbsp;Download CoverLettre
+          </Button>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px",margin: "5px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>
