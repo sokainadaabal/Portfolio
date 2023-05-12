@@ -31,7 +31,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://www.linkedin.com/jobs/view/3572328200/?alternateChannel=search&refId=m25R5cHH2EygXRMnkRx6Jw%3D%3D&trackingId=q0KzUQt76EbFKPw9%2FND7hw%3D%3D"
             target="_blank"
             style={{ maxWidth: "250px", margin: "5px" }}
           >
