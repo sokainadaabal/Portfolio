@@ -9,6 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
+const link ="https://www.linkedin.com/jobs/view/3572328200/?alternateChannel=search&refId=%3D%3D&trackingId=q0KzUQt76EbFKPw9%2FND7hw%3D%3D";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -31,7 +32,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://www.linkedin.com/jobs/view/3572328200/?alternateChannel=search&refId=m25R5cHH2EygXRMnkRx6Jw%3D%3D&trackingId=q0KzUQt76EbFKPw9%2FND7hw%3D%3D"
+            href={link}
             target="_blank"
             style={{ maxWidth: "250px", margin: "5px" }}
           >
