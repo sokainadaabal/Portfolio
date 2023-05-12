@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Cv_SokainaDaabal.pdf";
+import pdf from "../../Assets/../Assets/Sokainadaabal_CV.pdf";
 import { AiFillChrome, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,8 +24,11 @@ function ResumeNew() {
         <Particle />
         
         <Row className="resume">
-          <Document className="d-flex justify-content-center" file={pdf}>
+          <Document className="d-flex justify-content-center m-4" file={pdf}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
+          </Document>
+          <Document className="d-flex justify-content-center m-4" file={pdf}>
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
           </Document>
         </Row>
 
