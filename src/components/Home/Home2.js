@@ -25,23 +25,23 @@ function Home2() {
               </i>
               <br />
               <br />
-              I love to develop
-              with <b className="purple">Spring</b> for the backend part and 
+              I like to develop
+              with <b className="purple">Spring</b> Framework for the backend and 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Framework
+                  Modern Javascript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Angular</b> for the frontend part.
+                <b className="purple"> Angular</b> for the frontend.
               </i>
               <br />
               <br /> 
               I write a clean and maintainable code with &nbsp;
               <i>
-                <b className="purple"> good development practices, in particular with Spring.</b> 
+                <b className="purple"> good development practices, in particular with Java using Spring Framework.</b> 
               </i>
             </p>
           </Col>
@@ -55,7 +55,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-            You are welcome <span className="purple">connect </span> me
+            You are welcome to<span className="purple">connect </span> me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
