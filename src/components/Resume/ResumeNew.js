@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import cv from "../../Assets/../Assets/CV.pdf";
 import resume from "../../Assets/../Assets/Resume.pdf";
+import cover from "../Assets/CoverLetter.pdf";
 import { AiFillChrome, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -40,8 +41,7 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px", margin: "5px" }}
           >
-             <AiFillChrome/>
-            
+            <AiFillChrome/>
             &nbsp;Offre Job
           </Button>
          <Button
@@ -55,7 +55,7 @@ function ResumeNew() {
           </Button>
           <Button
             variant="primary"
-            href={cv}
+            href={cover}
             target="_blank"
             style={{ maxWidth: "250px" , margin: "5px"  }}
           >
