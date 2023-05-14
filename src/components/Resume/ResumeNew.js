@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import cv from "../../Assets/../Assets/CV.pdf";
 import resume from "../../Assets/../Assets/Resume.pdf";
-import cover from "../Assets/CoverLetter.pdf";
+import cover from "../../Assets/../Assets/CoverLetter.pdf";
 import { AiFillChrome, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
