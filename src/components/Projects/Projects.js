@@ -23,7 +23,7 @@ function Projects() {
               imgPath={patient}
               isBlog={false}
               title="Patients management App"
-              description="A simple web application to manage patients (CRUD operations). Developed using Spring from the backend, themleaf for the frontend part."
+              description="A simple web application to manage patients (CRUD operations). Developed using Spring for the backend, thymeleaf for the frontend."
               ghLink="https://github.com/sokainadaabal/SokainaDaabalJEE/tree/main/Activit%C3%A9%20Pratique%20N%C2%B04"
               demoLink="https://github.com/sokainadaabal/SokainaDaabalJEE/blob/main/Activit%C3%A9%20Pratique%20N%C2%B04/README.md"
             />

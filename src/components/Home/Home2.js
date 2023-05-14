@@ -55,7 +55,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-            You are welcome to<span className="purple">connect </span> me
+            <span className="purple">Connect </span> me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
