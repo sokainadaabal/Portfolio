@@ -39,7 +39,7 @@ function Home2() {
               </i>
               <br />
               <br /> 
-              I write a clean and maintainable code with &nbsp;
+              I write clean and maintainable code with &nbsp;
               <i>
                 <b className="purple"> good development practices, in particular with Java using Spring Framework.</b> 
               </i>
