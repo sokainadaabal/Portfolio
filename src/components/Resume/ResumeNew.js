@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Sokainadaabal_CV.pdf";
+import cv from "../../Assets/../Assets/CV.pdf";
+import resume from "../../Assets/../Assets/Resume.pdf";
 import { AiFillChrome, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,10 +25,10 @@ function ResumeNew() {
         <Particle />
         
         <Row className="resume">
-          <Document className="d-flex justify-content-center m-4" file={pdf}>
+          <Document className="d-flex justify-content-center m-4" file={cv}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
           </Document>
-          <Document className="d-flex justify-content-center m-4" file={pdf}>
+          <Document className="d-flex justify-content-center m-4" file={cv}>
             <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
           </Document>
         </Row>
@@ -45,7 +46,7 @@ function ResumeNew() {
           </Button>
          <Button
             variant="primary"
-            href={pdf}
+            href={resume}
             target="_blank"
             style={{ maxWidth: "250px" , margin: "5px" }}
           >
@@ -54,7 +55,7 @@ function ResumeNew() {
           </Button>
           <Button
             variant="primary"
-            href={pdf}
+            href={cv}
             target="_blank"
             style={{ maxWidth: "250px" , margin: "5px"  }}
           >
@@ -63,7 +64,7 @@ function ResumeNew() {
           </Button>
           <Button
             variant="primary"
-            href={pdf}
+            href={cv}
             target="_blank"
             style={{ maxWidth: "250px",margin: "5px" }}
           >
