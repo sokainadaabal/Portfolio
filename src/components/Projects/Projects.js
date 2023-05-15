@@ -35,7 +35,7 @@ function Projects() {
               imgPath={chifae}
               isBlog={false}
               title="Chifae Project"
-              description=" A simple web application to manage pharmacy, buy a medicament oline, import and export data(csv) , send an email and generate a report. Developed using Python and framework Django."
+              description=" This project is carried out as a part of my PFE,allows to manage pharmacy, selling a medicament oline, import and export data(csv) , send an email and generate a report. Developed using Python and framework Django."
               ghLink="https://github.com/sokainadaabal/chifae/"
             />
           </Col>
@@ -44,7 +44,7 @@ function Projects() {
               imgPath={enset}
               isBlog={false}
               title="Enset Blog"
-              description="A template for a blog site make with HTML and Bootstrap."
+              description="A template for a blog site made with HTML and Bootstrap FrameWork."
               ghLink="https://github.com/sokainadaabal/web-tp"
               demoLink="https://tp-boostrap-sokainadaabal.vercel.app/"
             />

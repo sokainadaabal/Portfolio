@@ -42,7 +42,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px", margin: "5px" }}
           >
             <AiFillChrome/>
-            &nbsp;Offre Job
+            &nbsp;Job Offre
           </Button>
          <Button
             variant="primary"
